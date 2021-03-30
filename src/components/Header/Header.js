@@ -7,6 +7,7 @@ export default function Header() {
     return (
         <header className={s.header}>
             <div className={s.home}>
+                <br></br>
                 <Link to='/'>Габариты</Link>
             </div>
             

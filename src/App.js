@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer.js';
 import Tents from './components/main/Tents';
 import Trucks from './components/main/Trucks';
 import Containers from './components/main/Containers';
-import Wagons from './components/main/Wagons';
+import TNVED from './components/main/TNVED';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Header />
         {/* <Content /> */}
-        <Footer />
+        
 
         <div className="app-wrapper-content">
           <Switch>
@@ -24,10 +24,11 @@ function App() {
             <Route exact path="/tents" component={Tents} />
             <Route exact path="/trucks" component={Trucks} />
             <Route exact path="/containers" component={Containers} />
-            <Route exact path="/wagons" component={Wagons} />
+            <Route exact path="/tnveds" component={TNVED} />
           </Switch>
         </div>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

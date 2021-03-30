@@ -19,8 +19,8 @@ export default function Menu() {
                     Контейнеры
                     </Link >
 
-                <Link to="/wagons" className="navbar-item">
-                    Вагоны
+                <Link to="/tnveds" className="navbar-item">
+                    Тн-ВЭД
                     </Link>
             </div>
         </nav>

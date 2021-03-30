@@ -1,0 +1,13 @@
+.dfc {
+    display: grid;
+    grid-template-rows: 35% 7% 52%;
+    /* grid-template-areas: 
+    'size'
+    'weight' */
+}
+
+.tableWeight {
+    /* grid-area: 'weight'; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

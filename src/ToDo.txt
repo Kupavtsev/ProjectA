@@ -1,3 +1,0 @@
-Errors:
-    Menu.js
-        Button with class component didn't work well with first time

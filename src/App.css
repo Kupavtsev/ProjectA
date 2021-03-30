@@ -9,13 +9,13 @@
   "c"
   "f";
 
-  grid-template-rows: 10% 75% 15%;
+  grid-template-rows: 10% 1fr 10%;
   grid-template-columns: 1fr;
 }
 
 .app-wrapper-content {
   grid-area: "c";
-  background-color: grey;
+  /* background-color: grey; */
   margin-left: 5%;
   margin-right: 5%;
 }

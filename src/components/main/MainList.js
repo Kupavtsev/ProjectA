@@ -1,26 +1,26 @@
 import React from "react";
-import Containers from "./Containers";
-import Tents from "./Tents";
-import Trucks from "./Trucks";
-import Wagons from "./Wagons";
+import CardTents from "./cards/CardTents";
+import CardContainers from "./cards/CardContainers";
+import CardTrucks from "./cards/CardTrucks";
+import CardTNVED from "./cards/CardTNVED";
 
 
 const MainList = () => {
 
     return (
         <>
-            <div className="hero is-primary">
+            <div className="hero is-small is-primary">
                 <div className="hero-body container">
-                    <h4 className="title">Types</h4>
+                    <h4 className="title">Виды прицепов, контейнеров и ТН-ВЭД</h4>
                 </div>
             </div>
             <br />
             <div className="container">
                 <div className="column columns is-multiline">
-                    <Tents />
-                    <Trucks />
-                    <Containers />
-                    <Wagons />
+                    <CardTents />
+                    <CardTrucks />
+                    <CardContainers />
+                    <CardTNVED />
                 </div>
             </div>
         </>

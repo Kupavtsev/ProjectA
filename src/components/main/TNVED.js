@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Wagons() {
+export default function TNVED() {
     return (
         <div>
-            Wagons
+            TNVED
         </div>
     )
 }
