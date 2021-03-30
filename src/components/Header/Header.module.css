@@ -1,0 +1,16 @@
+.header {
+    grid-area: h;
+    /* background-color: darkgray; */
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.loginBlock {
+    float: right;
+    /* align-self: flex-start; */
+}
+
+.home {
+    float: left;
+}
