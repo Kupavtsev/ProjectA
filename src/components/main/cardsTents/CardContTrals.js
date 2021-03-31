@@ -2,34 +2,34 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 // My Components
-import CardContainersLogo from '../../../assets/images/containers/CardContainers.jpg';
+import Logo from '../../../assets/images/containers/CardContainers.jpg';
 
-export default function CardContainers() {
+export default function CardContTrals() {
 
     return (
         <div className=" column is-half">
-            <NavLink to='/containers'>
+            <NavLink to='/tents'>
                 <div className="box">
                     <div className="media">
                         <div className="media-left">
                             <figure className="image is-128x128">
                                 <img
-                                    src={CardContainersLogo}
-                                    alt={'Containers'}
+                                    src={Logo}
+                                    alt={'Trals'}
                                 ></img>
                             </figure>
                         </div>
                         <div className="media-content">
                             <b style={{ textTransform: "capitalize" }}>
-                                Контейнеры
-                                <span className="tag is-primary">Полу-Контейнеры</span>
+                                низкорамные 
+                                <span className="tag is-primary">Полуприцепы - контейнеровозы</span>
                             </b>
                             <div>рамник</div>
 
                             <div className="is-clearfix">
                                 <button
-                                    className="button is-small is-outlined is-primary is-pulled-right">
-                                    Контейнеры
+                                    className="button is-small is-outlined is-primary   is-pulled-right">
+                                    контейнеровозы
                             </button>
                             </div>
                         </div>

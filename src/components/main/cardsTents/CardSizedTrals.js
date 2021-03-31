@@ -3,12 +3,13 @@ import { NavLink } from "react-router-dom";
 
 // My Components
 import CardContainersLogo from '../../../assets/images/containers/CardContainers.jpg';
+import Containers from '../Containers';
 
 export default function CardContainers() {
 
     return (
         <div className=" column is-half">
-            <NavLink to='/containers'>
+            <NavLink to='/tents'>
                 <div className="box">
                     <div className="media">
                         <div className="media-left">
@@ -22,14 +23,14 @@ export default function CardContainers() {
                         <div className="media-content">
                             <b style={{ textTransform: "capitalize" }}>
                                 Контейнеры
-                                <span className="tag is-primary">Полу-Контейнеры</span>
+                                <span className="tag is-primary">Полуприцепы - тяжеловозы</span>
                             </b>
-                            <div>рамник</div>
+                            <div>тралы </div>
 
                             <div className="is-clearfix">
                                 <button
-                                    className="button is-small is-outlined is-primary is-pulled-right">
-                                    Контейнеры
+                                    className="button is-small is-outlined is-primary   is-pulled-right">
+                                    Containers
                             </button>
                             </div>
                         </div>
