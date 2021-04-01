@@ -8,7 +8,7 @@ export default function CardContainers() {
 
     return (
         <div className=" column is-half">
-            <NavLink to='/tents'>
+            <NavLink to='/tents-euro'>
                 <div className="box">
                     <div className="media">
                         <div className="media-left">
