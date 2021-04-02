@@ -13,6 +13,11 @@ import FortyRefHC from './Containers/FortyRefHC';
 import TwonyIzol from './Containers/TwonyIzol';
 import TwonyVent from './Containers/TwonyVent';
 
+import TwonyOT from './Containers/TwonyOT';
+import FortyOT from './Containers/FortyOT';
+import FlatRack from './Containers/FlatRack';
+import FortyFlatRack from './Containers/FortyFlatRack';
+
 
 
 export default function Containers() {
@@ -55,6 +60,23 @@ export default function Containers() {
             <div data-aos="zoom-in"
                 data-aos-easing="linear">
                 <TwonyVent />
+            </div>
+
+            <div data-aos="zoom-in"
+                data-aos-easing="linear">
+                <TwonyOT />
+            </div>
+            <div data-aos="zoom-in"
+                data-aos-easing="linear">
+                <FortyOT />
+            </div>
+            <div data-aos="zoom-in"
+                data-aos-easing="linear">
+                <FlatRack />
+            </div>
+            <div data-aos="zoom-in"
+                data-aos-easing="linear">
+                <FortyFlatRack />
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 .dfc {
     display: grid;
-    grid-template-rows: 35% 7% 52%;
+    grid-template-rows: 40% 6% 44%;
     /* grid-template-areas: 
     'size'
     'weight' */
@@ -10,4 +10,9 @@
     /* grid-area: 'weight'; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.opentops {
+    display: grid;
+    grid-template-rows: 46% 6% 48%;
 }

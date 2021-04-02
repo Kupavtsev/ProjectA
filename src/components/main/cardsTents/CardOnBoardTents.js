@@ -8,7 +8,7 @@ export default function CardContainers() {
 
     return (
         <div className=" column is-half">
-            <NavLink to='/tents'>
+            <NavLink to='/semitrailers'>
                 <div className="box">
                     <div className="media">
                         <div className="media-left">
@@ -21,7 +21,7 @@ export default function CardContainers() {
                         </div>
                         <div className="media-content">
                             <b style={{ textTransform: "capitalize" }}>
-                                Контейнеры
+                                Открытые
                                 <span className="tag is-primary">Бортовые полуприцепы</span>
                             </b>
                             <div>прицепы</div>

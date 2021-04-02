@@ -8,7 +8,7 @@ export default function CardContTrals() {
 
     return (
         <div className=" column is-half">
-            <NavLink to='/tents'>
+            <NavLink to='/semitrailers-cont'>
                 <div className="box">
                     <div className="media">
                         <div className="media-left">
@@ -22,14 +22,14 @@ export default function CardContTrals() {
                         <div className="media-content">
                             <b style={{ textTransform: "capitalize" }}>
                                 низкорамные 
-                                <span className="tag is-primary">Полуприцепы - контейнеровозы</span>
+                                <span className="tag is-primary">П/п - контейнеровозы</span>
                             </b>
                             <div>рамник</div>
 
                             <div className="is-clearfix">
                                 <button
                                     className="button is-small is-outlined is-primary   is-pulled-right">
-                                    контейнеровозы
+                                    контейнерные площадки
                             </button>
                             </div>
                         </div>

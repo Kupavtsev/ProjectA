@@ -4,7 +4,7 @@ import s from './Footer.module.css';
 export default function Footer() {
     return (
         <footer className={s.footer}>
-            kpglogistic.ru
+            Поделиться - - kpglogistic.ru - - Кнопка наверх
         </footer>
     )
 }
