@@ -2,20 +2,19 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 // My Components
-import CardContainersLogo from '../../../assets/images/containers/CardContainers.jpg';
-import Containers from '../Containers';
+import Logo from '../../../assets/images/trals/TralLogoBlack.jpg';
 
 export default function CardContainers() {
 
     return (
         <div className=" column is-half">
-            <NavLink to='/tents'>
+            <NavLink to='/trals'>
                 <div className="box">
                     <div className="media">
                         <div className="media-left">
                             <figure className="image is-128x128">
                                 <img
-                                    src={CardContainersLogo}
+                                    src={Logo}
                                     alt={'Containers'}
                                 ></img>
                             </figure>

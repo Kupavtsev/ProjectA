@@ -3,7 +3,7 @@ import React from "react";
 // My components
 import CardTents from "./cards/CardTents";
 import CardContainers from "./cards/CardContainers";
-import CardTrucks from "./cards/CardTrucks";
+import CardArticles from "./cards/CardArticles";
 import CardTNVED from "./cards/CardTNVED";
 
 
@@ -21,7 +21,7 @@ const MainList = () => {
             <div className="container">
                 <div className="column columns is-multiline">
                     <CardTents />
-                    <CardTrucks />
+                    <CardArticles />
                     <CardContainers />
                     <CardTNVED />
                 </div>

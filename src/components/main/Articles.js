@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Trucks() {
+export default function Articles() {
     return (
         <div>
-            Trucks
+            articles
         </div>
     )
 }

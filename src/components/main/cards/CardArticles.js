@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function CardTrucks() {
+export default function Articles() {
     return (
         <div className=" column is-half">
             <div className="box">
@@ -9,14 +9,14 @@ export default function CardTrucks() {
                         <figure className="image is-128x128">
                             <img
                                 src="https://s2.logaster.com/static/v3/img/products/logo.png"
-                                alt={'Trucks'}
+                                alt={'Articles'}
                             />
                         </figure>
                     </div>
                     <div className="media-content">
                         <b style={{ textTransform: "capitalize" }}>
-                            Грузовик
-                        <p><span className="tag is-primary">Кузов</span></p>
+                            Статьи
+                        <p><span className="tag is-primary">Статьи о прицепах</span></p>
                         </b>
                         <div>прицеп</div>
 

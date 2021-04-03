@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 // My Components
-import Logo from '../../../assets/images/containers/CardContainers.jpg';
+import Logo from '../../../assets/images/tents/TentLogoBlack.jpg';
 
 export default function CardContainers() {
 

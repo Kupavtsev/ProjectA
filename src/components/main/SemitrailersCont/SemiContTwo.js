@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo1 from '../../../assets/images/semitrailerCont/konteinerovoz3.jpg';
-import Logo2 from '../../../assets/images/semitrailerCont/konteinerovoz2.jpg';
+// import Logo1 from '../../../assets/images/semitrailerCont/konteinerovoz3.jpg';
+import Logo1 from '../../../assets/images/semitrailerCont/two.jpg';
 
 
 export default function SemiOne() {

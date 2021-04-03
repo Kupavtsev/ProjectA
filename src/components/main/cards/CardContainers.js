@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 // My Components
-import CardContainersLogo from '../../../assets/images/containers/CardContainers.jpg';
+import Logo from '../../../assets/images/containers/ContLogoBlackMain.jpg';
 
 export default function CardContainers() {
 
@@ -14,7 +14,7 @@ export default function CardContainers() {
                         <div className="media-left">
                             <figure className="image is-128x128">
                                 <img
-                                    src={CardContainersLogo}
+                                    src={Logo}
                                     alt={'Containers'}
                                 ></img>
                             </figure>
