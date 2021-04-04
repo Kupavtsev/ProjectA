@@ -19,7 +19,7 @@ export default function Menu() {
                     Контейнеры
                     </Link >
 
-                <Link to="/tnveds" className="navbar-item">
+                <Link to="/tnved" className="navbar-item">
                     Тн-ВЭД
                     </Link>
             </div>

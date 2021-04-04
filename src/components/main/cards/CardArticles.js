@@ -1,14 +1,18 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
+
+import Logo from '../../../assets/images/cardArticles.png'
 
 export default function Articles() {
     return (
         <div className=" column is-half">
+            <NavLink to='/articles'>
             <div className="box">
                 <div className="media">
                     <div className="media-left">
                         <figure className="image is-128x128">
                             <img
-                                src="https://s2.logaster.com/static/v3/img/products/logo.png"
+                                src={Logo}
                                 alt={'Articles'}
                             />
                         </figure>
@@ -33,6 +37,7 @@ export default function Articles() {
                     </div>
                 </div>
             </div>
+            </NavLink>
         </div>
     )
 }

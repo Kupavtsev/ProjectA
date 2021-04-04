@@ -31,7 +31,6 @@ export default class MenuClass extends React.Component {
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
               </label>
             </div>
               <div className={`navbar-menu ${
@@ -45,9 +44,6 @@ export default class MenuClass extends React.Component {
                 </Link>
                 <Link to="/articles" className="navbar-item">
                     Статьи
-                </Link>
-                <Link to="/tnveds" className="navbar-item">
-                    Тн-ВЭД
                 </Link>
               </div>
             </nav>

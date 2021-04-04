@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import CardTents from './cardsTents/CardTents';
 import CardContTrals from './cardsTents/CardContTrals';
@@ -12,6 +13,12 @@ export default function Tents() {
     return (
         
         <>
+        <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+            <ul>
+                <li><Link to="/">Главная</Link></li>
+                <li class="is-active"><Link to="/tents" aria-current="page">Полу-прицепы</Link></li>
+            </ul>
+        </nav>
         <div className={s.main}>
             <div className="hero is-small is-primary">
                 <div className="hero-body container">

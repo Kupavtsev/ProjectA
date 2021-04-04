@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -20,6 +21,7 @@ import FortyFlatRack from './Containers/FortyFlatRack';
 
 
 
+
 export default function Containers() {
 
     useEffect(() => {
@@ -28,6 +30,12 @@ export default function Containers() {
 
     return (
         <div>
+            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+                <ul>
+                    <li><Link to="/">Главная</Link></li>
+                    <li class="is-active"><Link to="/containers" aria-current="page">Контейнеры</Link></li>
+                </ul>
+            </nav>
             <DFC />
             <div data-aos="zoom-in"
                 data-aos-easing="linear">
@@ -77,6 +85,13 @@ export default function Containers() {
             <div data-aos="zoom-in"
                 data-aos-easing="linear">
                 <FortyFlatRack />
+            </div>
+
+            <div class="tags">
+                <span class="tag">Стандартный сухой контейнер</span>
+                <span class="tag">Морской контейнер</span>
+                <span class="tag">Открытый контейнер</span>
+                <span class="tag">Характеристики и размеры</span>
             </div>
         </div>
     )

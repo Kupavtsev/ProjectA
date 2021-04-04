@@ -21,7 +21,7 @@ export default function CardContTrals() {
                         </div>
                         <div className="media-content">
                             <b style={{ textTransform: "capitalize" }}>
-                                низкорамные 
+                                 контейнерные 
                                 <span className="tag is-primary">П/п - контейнеровозы</span>
                             </b>
                             <div>рамник</div>

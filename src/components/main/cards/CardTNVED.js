@@ -13,24 +13,7 @@ export default function CardTNVED() {
                             />
                         </figure>
                     </div>
-                    <div className="media-content">
-                        <b style={{ textTransform: "capitalize" }}>
-                            ТН-ВЭД
-              <span className="tag is-primary">Коды ТН-ВЭД</span>
-                        </b>
-                        <div>Таблица кодов</div>
-
-                        <div className="is-clearfix">
-                            <button
-                                className="button is-small is-outlined is-primary   is-pulled-right"
-                                onClick={() =>
-                                    alert('tents')
-                                }
-                            >
-                                Коды
-              </button>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ export default function CardContainers() {
                         </div>
                         <div className="media-content">
                             <b style={{ textTransform: "capitalize" }}>
-                                Контейнеры
+                                Низкорамные
                                 <span className="tag is-primary">Тралы и низкорамники</span>
                             </b>
                             <div>тралы </div>
