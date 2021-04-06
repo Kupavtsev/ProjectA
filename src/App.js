@@ -17,6 +17,8 @@ import Semitrailers from "./components/main/Semitrailers/Semitrailers";
 import SemitrailersCont from "./components/main/SemitrailersCont/SemitrailersCont";
 import Trals from "./components/main/Trals/Trals";
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 
 function App() {
   return (
@@ -41,6 +43,7 @@ function App() {
         </div>
       </BrowserRouter>
       <Footer />
+      <YMInitializer accounts={[75168874]} />
     </div>
   );
 }

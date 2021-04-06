@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 import CbmFF from './CbmFF';
 import CbmSE from './CbmSE';
 
@@ -61,6 +63,7 @@ export default function TentsEuro() {
                 data-aos-easing="linear">
                 <CbmOHTw />
             </div>
+            <YMInitializer accounts={[75168874]} />
         </div>
     )
 }

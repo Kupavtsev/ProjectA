@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 // My Components
 import SemiContOne from './SemiContOne';
 import SemiContTwo from './SemiContTwo';
@@ -38,6 +40,7 @@ export default function SemitrailersCont() {
                 data-aos-easing="linear">
                 <SemiContThree />
             </div>
+            <YMInitializer accounts={[75168874]} />
         </div>
     )
 }

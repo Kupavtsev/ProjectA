@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 export default function Menu() {
     return (
         <nav>
@@ -23,6 +25,7 @@ export default function Menu() {
                     Тн-ВЭД
                     </Link>
             </div>
+            <YMInitializer accounts={[75168874]} />
         </nav>
     )
 }

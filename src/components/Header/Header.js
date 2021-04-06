@@ -5,6 +5,8 @@ import s from './Header.module.css';
 import MenuClass from './MenuClass';
 import Home from '../../assets/images/home.png';
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 export default function Header() {
     return (
         <header className={s.header}>
@@ -18,6 +20,7 @@ export default function Header() {
             <div className={s.loginBlock}>
                 <MenuClass />
             </div>
+            <YMInitializer accounts={[75168874]} />
         </header>
     )
 }

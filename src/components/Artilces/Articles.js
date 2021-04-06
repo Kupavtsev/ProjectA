@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 export default function Articles() {
     return (
         <div>
@@ -44,6 +46,7 @@ export default function Articles() {
                 <span class="tag">Автотранспорт</span>
                 
             </div>
+            <YMInitializer accounts={[75168874]} />
         </div>
     )
 }

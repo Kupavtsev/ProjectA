@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 import CardTents from './cardsTents/CardTents';
 import CardContTrals from './cardsTents/CardContTrals';
 import CardOnBoardTents from './cardsTents/CardOnBoardTents';
@@ -34,6 +36,7 @@ export default function Tents() {
                     <CardSizedTrals />
                 </div>
             </div>
+            <YMInitializer accounts={[75168874]} />
             </div>
         </>
     );

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 // My Components
 import TralOne from './TralOne';
 import TralTwo from './TralTwo';
@@ -37,6 +39,7 @@ export default function Trals() {
                 data-aos-easing="linear">
                 <TralThree />
             </div>
+            <YMInitializer accounts={[75168874]} />
         </div>
     )
 }

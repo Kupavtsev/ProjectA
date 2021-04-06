@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 
 export default class MenuClass extends React.Component {
     constructor(props) {
@@ -46,6 +48,7 @@ export default class MenuClass extends React.Component {
                     Статьи
                 </Link>
               </div>
+              <YMInitializer accounts={[75168874]} />
             </nav>
         )
     }

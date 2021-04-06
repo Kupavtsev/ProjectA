@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
+import { YMInitializer } from 'react-yandex-metrika';
+
 // My Components
 import DFC from './Containers/DFC';
 import FortyDty from './Containers/FortyDry';
@@ -93,6 +95,7 @@ export default function Containers() {
                 <span class="tag">Открытый контейнер</span>
                 <span class="tag">Характеристики и размеры</span>
             </div>
+            <YMInitializer accounts={[75168874]} />
         </div>
     )
 }
