@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer.js';
 import Tents from './components/main/Tents';
 import Articles from './components/Artilces/Articles';
 import Containers from './components/main/Containers';
-import TNVED from './components/Tnved/TNVED';
+import About from './components/About/About';
 import TentsEuro from './components/main/Tents/TentsEuro';
 import Semitrailers from "./components/main/Semitrailers/Semitrailers";
 import SemitrailersCont from "./components/main/SemitrailersCont/SemitrailersCont";
@@ -34,7 +34,7 @@ function App() {
             <Route exact path="/tents" component={Tents} />
             <Route exact path="/articles" component={Articles} />
             <Route exact path="/containers" component={Containers} />
-            <Route exact path="/tnved" component={TNVED} />
+            <Route exact path="/about" component={About} />
             <Route exact path="/tents-euro" component={TentsEuro} />
             <Route exact path="/semitrailers" component={Semitrailers} />
             <Route exact path="/semitrailers-cont" component={SemitrailersCont} />

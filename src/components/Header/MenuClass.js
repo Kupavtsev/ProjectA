@@ -33,6 +33,7 @@ export default class MenuClass extends React.Component {
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
               </label>
             </div>
               <div className={`navbar-menu ${
@@ -46,6 +47,9 @@ export default class MenuClass extends React.Component {
                 </Link>
                 <Link to="/articles" className="navbar-item">
                     Статьи
+                </Link>
+                <Link to="/about" className="navbar-item">
+                    О проекте
                 </Link>
               </div>
               <YMInitializer accounts={[75168874]} />

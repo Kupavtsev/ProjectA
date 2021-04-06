@@ -22,7 +22,7 @@ export default function Articles() {
                             Статьи
                         <p><span className="tag is-primary">Статьи о прицепах</span></p>
                         </b>
-                        <div>прицеп</div>
+                        <div><br></br></div>
 
                         <div className="is-clearfix">
                             <button

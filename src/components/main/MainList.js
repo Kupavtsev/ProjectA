@@ -6,7 +6,7 @@ import { YMInitializer } from 'react-yandex-metrika';
 import CardTents from "./cards/CardTents";
 import CardContainers from "./cards/CardContainers";
 import CardArticles from "./cards/CardArticles";
-import CardTNVED from "./cards/CardTNVED";
+import CardAbout from "./cards/CardAbout";
 
 
 
@@ -25,7 +25,7 @@ const MainList = () => {
                     <CardTents />
                     <CardArticles />
                     <CardContainers />
-                    <CardTNVED />
+                    <CardAbout />
                 </div>
                 <YMInitializer accounts={[75168874]} />
             </div>

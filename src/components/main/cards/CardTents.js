@@ -25,7 +25,7 @@ export default function CardTents() {
                                 Тент
                             <p><span className="tag is-primary">Полу-прицепы</span></p>
                             </b>
-                            <div>Тентованные Полу-прицепы</div>
+                            <div><br></br></div>
 
                             <div className="is-clearfix">
                                 <button

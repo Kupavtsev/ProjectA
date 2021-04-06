@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 // My Components
-import Logo from '../../../assets/images/containers/ContLogoBlackMain.jpg';
+import Logo from '../../../assets/images/containers/CardLogo.webp';
 
 export default function CardContainers() {
 
@@ -24,7 +24,7 @@ export default function CardContainers() {
                                 Контейнеры
                                 <span className="tag is-primary">Полу-Контейнеры</span>
                             </b>
-                            <div>рамник</div>
+                            <div><br></br></div>
 
                             <div className="is-clearfix">
                                 <button
