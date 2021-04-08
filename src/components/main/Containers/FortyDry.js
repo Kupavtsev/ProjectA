@@ -61,7 +61,7 @@ export default function FortyDty() {
                         </tr>
                     </thead>
                 </table>
-                <img src={FortyDryPhoto} />
+                <img src={FortyDryPhoto} alt={'picture'} />
             </div>
         </div>
     )

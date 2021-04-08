@@ -61,7 +61,7 @@ export default function DFC() {
                         </tr>
                     </thead>
                 </table>
-                <img src={DFCPhoto} />
+                <img src={DFCPhoto} alt={'picture'}/>
             </div>
         </div>
     )

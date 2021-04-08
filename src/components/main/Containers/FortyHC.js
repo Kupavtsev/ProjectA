@@ -61,7 +61,7 @@ export default function FortyHC() {
                         </tr>
                     </thead>
                 </table>
-                <img src={FortyDryPhoto} />
+                <img src={FortyDryPhoto} alt={'picture'} />
             </div>
         </div>
     )

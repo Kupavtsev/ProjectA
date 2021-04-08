@@ -6,7 +6,7 @@ export default function SemiOne() {
     return (
         <div>
             Двухосный бортовой полуприцеп 9334-0000020-10
-            <img src={Logo} />
+            <img src={Logo} alt={'picture'} />
             <table className='table is-bordered'>
                 <thead>
                     <tr>

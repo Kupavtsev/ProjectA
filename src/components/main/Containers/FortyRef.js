@@ -61,7 +61,7 @@ export default function FortyRef() {
                         </tr>
                     </thead>
                 </table>
-                <img src={FortyRefPhoto} />
+                <img src={FortyRefPhoto} alt={'picture'} />
             </div>
         </div>
     )

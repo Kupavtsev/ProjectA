@@ -6,7 +6,7 @@ export default function SemiOne() {
     return (
         <div>
             Трехосный полуприцеп бортовой с раздвижными кониками
-            <img src={Logo} />
+            <img src={Logo} alt={'picture'} />
             <table className='table is-bordered'>
                 <thead>
                     <tr>

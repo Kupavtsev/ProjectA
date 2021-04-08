@@ -7,7 +7,7 @@ export default function SemiOne() {
     return (
         <div>
             Низкорамные полуприцепы-контейнеровозы
-            <img src={Logo1} />
+            <img src={Logo1} alt={'picture'} />
             <table className='table is-bordered'>
                 <thead>
                     <tr>

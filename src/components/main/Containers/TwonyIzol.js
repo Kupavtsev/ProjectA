@@ -61,7 +61,7 @@ export default function TwonyIzol() {
                         </tr>
                     </thead>
                 </table>
-                <img src={TwonyIzolPhoto} />
+                <img src={TwonyIzolPhoto} alt={'picture'} />
             </div>
         </div>
     )

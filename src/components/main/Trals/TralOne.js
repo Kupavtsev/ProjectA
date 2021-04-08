@@ -6,7 +6,7 @@ export default function TralOne() {
     return (
         <div>
             Двухосный низкорамный полуприцеп ТСП 94182-0000010 ( 2 - осный )
-            <img src={Logo} />
+            <img src={Logo} alt={'picture'} />
             <table className='table is-bordered'>
                 <thead>
                     <tr>

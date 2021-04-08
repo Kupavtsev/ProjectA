@@ -6,7 +6,7 @@ export default function TralThree() {
     return (
         <div>
             Трехосный низкорамный полуприцеп ТСП 94183-0000040 ( 3 - осный )
-            <img src={Logo} />
+            <img src={Logo} alt={'picture'} />
             <table className='table is-bordered'>
                 <thead>
                     <tr>

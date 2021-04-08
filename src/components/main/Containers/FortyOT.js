@@ -61,7 +61,7 @@ export default function FortyOT() {
                         </tr>
                     </thead>
                 </table>
-                <img src={Logo} />
+                <img src={Logo} alt={'picture'} />
             </div>
         </div>
     )

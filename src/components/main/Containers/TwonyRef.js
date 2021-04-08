@@ -61,7 +61,7 @@ export default function TwonyRef() {
                         </tr>
                     </thead>
                 </table>
-                <img src={TwonyRefPhoto} />
+                <img src={TwonyRefPhoto} alt={'picture'} />
             </div>
         </div>
     )

@@ -42,7 +42,7 @@ export default function CbmSE() {
                     </tr>
                 </thead>
             </table>
-            <img src={Logo} />
+            <img src={Logo} alt={'picture'} />
         </div>
     )
 }

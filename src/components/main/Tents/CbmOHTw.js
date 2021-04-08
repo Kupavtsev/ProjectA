@@ -41,7 +41,7 @@ export default function CbmOHTw() {
                     </tr>
                 </thead>
             </table>
-            <img src={Logo} />
+            <img src={Logo} alt={'picture'} />
         </div>
     )
 }

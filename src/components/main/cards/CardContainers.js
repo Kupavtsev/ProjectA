@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 // My Components
-import Logo from '../../../assets/images/containers/CardLogo.webp';
+import Logo from '../../../assets/images/containers/CargoLogo.png';
 
 export default function CardContainers() {
 

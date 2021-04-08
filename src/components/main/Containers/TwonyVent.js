@@ -67,7 +67,7 @@ export default function TwonyVent() {
                         </tr>
                     </thead>
                 </table>
-                <img src={TwonyVentPhoto} />
+                <img src={TwonyVentPhoto} alt={'picture'} />
             </div>
         </div>
     )
