@@ -25,11 +25,11 @@ export default function TentsEuro() {
 
     return (
         <div>
-            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+            <nav className="breadcrumb is-small" aria-label="breadcrumbs">
                 <ul>
                     <li><Link to="/">Главная</Link></li>
                     <li><Link to="/tents">Полу-прицепы</Link></li>
-                    <li class="is-active"><Link to="/tents-euro" aria-current="page">Евро-тент</Link></li>
+                    <li className="is-active"><Link to="/tents-euro" aria-current="page">Евро-тент</Link></li>
                 </ul>
             </nav>
             <div>

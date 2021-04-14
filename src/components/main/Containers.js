@@ -32,10 +32,10 @@ export default function Containers() {
 
     return (
         <div>
-            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+            <nav className="breadcrumb is-small" aria-label="breadcrumbs">
                 <ul>
                     <li><Link to="/">Главная</Link></li>
-                    <li class="is-active"><Link to="/containers" aria-current="page">Контейнеры</Link></li>
+                    <li className="is-active"><Link to="/containers" aria-current="page">Контейнеры</Link></li>
                 </ul>
             </nav>
             <DFC />
@@ -89,11 +89,11 @@ export default function Containers() {
                 <FortyFlatRack />
             </div>
 
-            <div class="tags">
-                <span class="tag">Стандартный сухой контейнер</span>
-                <span class="tag">Морской контейнер</span>
-                <span class="tag">Открытый контейнер</span>
-                <span class="tag">Характеристики и размеры</span>
+            <div className="tags">
+                <span className="tag">Стандартный сухой контейнер</span>
+                <span className="tag">Морской контейнер</span>
+                <span className="tag">Открытый контейнер</span>
+                <span className="tag">Характеристики и размеры</span>
             </div>
             <YMInitializer accounts={[75168874]} />
         </div>

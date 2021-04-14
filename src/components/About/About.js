@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 export default function About() {
     return (
         <div>
-            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+            <nav className="breadcrumb is-small" aria-label="breadcrumbs">
                 <ul>
                     <li><Link to="/">Главная</Link></li>
-                    <li class="is-active"><Link to="/tnved" aria-current="page">О проекте</Link></li>
+                    <li className="is-active"><Link to="/tnved" aria-current="page">О проекте</Link></li>
                 </ul>
             </nav>
             <br></br>

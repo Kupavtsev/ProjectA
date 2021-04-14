@@ -19,11 +19,11 @@ export default function SemitrailersCont() {
 
     return (
         <div>
-            <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+            <nav className="breadcrumb is-small" aria-label="breadcrumbs">
                 <ul>
                     <li><Link to="/">Главная</Link></li>
                     <li><Link to="/tents">Полу-прицепы</Link></li>
-                    <li class="is-active"><Link to="/semitrailers-cont" aria-current="page">Полуприцепы - контейнеровозы</Link></li>
+                    <li className="is-active"><Link to="/semitrailers-cont" aria-current="page">Полуприцепы - контейнеровозы</Link></li>
                 </ul>
             </nav>
 

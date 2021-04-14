@@ -15,10 +15,10 @@ export default function Tents() {
     return (
         
         <>
-        <nav class="breadcrumb is-small" aria-label="breadcrumbs">
+        <nav className="breadcrumb is-small" aria-label="breadcrumbs">
             <ul>
                 <li><Link to="/">Главная</Link></li>
-                <li class="is-active"><Link to="/tents" aria-current="page">Полу-прицепы</Link></li>
+                <li className="is-active"><Link to="/tents" aria-current="page">Полу-прицепы</Link></li>
             </ul>
         </nav>
         <div className={s.main}>
