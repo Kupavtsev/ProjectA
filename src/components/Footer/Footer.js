@@ -5,7 +5,7 @@ import { YMInitializer } from 'react-yandex-metrika';
 export default function Footer() {
     return (
         <footer className={s.footer}>
-            sitename.ru
+            www.kpglogistic.ru
             <YMInitializer accounts={[75168874]} />
         </footer>
     )

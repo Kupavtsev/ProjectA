@@ -16,7 +16,7 @@ const MainList = () => {
         <>
             <div className="hero is-small is-primary">
                 <div className="hero-body container">
-                    <h4 className="title">Виды прицепов, контейнеров и ТН-ВЭД</h4>
+                    <h4 className="title">Виды прицепов, контейнеров и контейнеровозов</h4>
                 </div>
             </div>
             <br />
