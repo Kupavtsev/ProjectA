@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import * as axios from 'axios';
 
 import { YMInitializer } from 'react-yandex-metrika';
 
 export default function Articles() {
+
+    const [articles, setArticles] = useState([]);
+    const [loading, setLoading] = useState(false);
+
+    const getArticlesData = async () => {
+        try {
+            const response = await axios.get('http://localhost:5000/api/article');
+        setArticles(response.data);
+        setLoading(true);
+        } catch (e) {
+            console.log(e)
+        }
+    };
+
+    useEffect(() => {
+        getArticlesData()
+    }, []);
+        
+
     return (
         <div>
             <nav className="breadcrumb is-small" aria-label="breadcrumbs">
@@ -12,7 +32,7 @@ export default function Articles() {
                     <li className="is-active"><Link to="/articles" aria-current="page">Статьи</Link></li>
                 </ul>
             </nav>
-
+            
             <article className="is-warning">
                 <div className="message-body">
                 <strong>Автомобильный транспорт.</strong> 

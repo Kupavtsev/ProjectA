@@ -1,0 +1,4 @@
+flask_migrate==2.3.0
+flask_script==2.0.6
+psycopg2==2.7.5
+Flask-Cors==3.0.10
