@@ -3,6 +3,7 @@ import os
 
 
 class BaseConfig(object):
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///db.sqlite3'
     DEBUG = False
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
