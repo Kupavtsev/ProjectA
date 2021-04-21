@@ -15,7 +15,7 @@ export default function Articles() {
 
     const getArticlesData = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/article');
+            const response = await axios.get('http://www.kpglogistic.ru//api/article');
         setArticles(response.data);
         setLoading(true);
         } catch (e) {
