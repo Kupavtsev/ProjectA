@@ -8,3 +8,10 @@ static/node_modules/
 venv/
 
 ToDo/
+
+# transfer to Flask
+
+manage.txt
+app/config.txt
+app/routes.txt
+app/__init__.txt
