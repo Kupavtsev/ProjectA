@@ -1,5 +1,5 @@
 from flask_script import Manager
-from app.config import config
+from config import config
 
 # My Components
 from app.routes import app
