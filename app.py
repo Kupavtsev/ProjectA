@@ -1,6 +1,7 @@
 from flask import Flask, redirect, url_for
 from flask import request, render_template, jsonify
 from flask_sqlalchemy import SQLAlchemy
+# from flask_cors import CORS #comment this on deployment
 
 from config import BaseConfig
 
