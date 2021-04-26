@@ -1,6 +1,7 @@
 from flask import Flask, redirect, url_for
 from flask import request, render_template, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS #comment this on deployment
 
 from config import BaseConfig
 
@@ -12,7 +13,7 @@ STATIC_FOLDER = os.path.join(APP_DIR, 'static/build/static') # Where your webpac
 TEMPLATE_FOLDER = os.path.join(APP_DIR, 'static/build') # Where your index.html file is located
 
 app = Flask(__name__, static_folder=STATIC_FOLDER, template_folder=TEMPLATE_FOLDER)
-# CORS(app) #comment this on deployment
+CORS(app) #comment this on deployment
 app.config.from_object(BaseConfig)
 
 db = SQLAlchemy(app)

@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@architect/sandbox": "^3.4.1"
+    "@architect/sandbox": "^3.4.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

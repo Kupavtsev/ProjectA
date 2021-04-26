@@ -13,19 +13,19 @@ export default function Articles() {
     const [articles, setArticles] = useState([]);
     const [loading, setLoading] = useState(false);
 
-    const getArticlesData = async () => {
-        try {
-            const response = await axios.get('http://localhost:5000/api/article');
-        setArticles(response.data);
-        setLoading(true);
-        } catch (e) {
-            console.log(e)
-        }
-    };
-
     useEffect(() => {
+        const getArticlesData = async () => {
+            try {
+                const response = await axios.get('http://localhost:5000/api/article');
+            setArticles(response.data);
+            setLoading(true);
+            } catch (e) {
+                console.log(e)
+            }
+        };
+
         getArticlesData()
-    }, []);
+    }, [articles]);
     
 
     return (
