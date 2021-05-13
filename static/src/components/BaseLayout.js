@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Router } from "react-router-dom";
 import './../App.css';
 
 // My Components
@@ -20,11 +20,29 @@ import Trals from "./main/Trals/Trals";
 
 import { YMInitializer } from 'react-yandex-metrika';
 
+// For Google Analitycs
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
+
+
+// Google Analitycs
+ReactGA.initialize('G-K6FY56S2SR');
+const history = createBrowserHistory();
+
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
+
+
 let BaseLayout = () => {
-    return (
-        <div className='app-wrapper'>
-        <BrowserRouter> 
-          <Header /> 
+  return (
+    <Router history={history}>
+      <div className='app-wrapper'>
+        <BrowserRouter>
+          <Header />
           {/* <Content /> */}
           <div className="app-wrapper-content">
             <Switch>
@@ -43,8 +61,9 @@ let BaseLayout = () => {
         <Footer />
         <YMInitializer accounts={[75168874]} />
       </div>
-    )
+    </Router>
+  )
 }
 
 
-export default  BaseLayout;
+export default BaseLayout;
