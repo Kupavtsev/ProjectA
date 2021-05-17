@@ -43,7 +43,7 @@ export default function Articles() {
         };
 
         getArticlesData()
-    }, [articles]);
+    }, []);
 
 
     return (
