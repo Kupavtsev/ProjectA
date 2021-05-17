@@ -43,7 +43,7 @@ export default function Articles() {
         };
 
         getArticlesData()
-    }, [articles]);
+    }, []);
 
 
     return (
@@ -87,8 +87,8 @@ export default function Articles() {
                 <span className="tag">Автотранспорт</span>
                 
             </div> */}
-            
-                {/* <YMInitializer accounts={[75168874]} /> */}
+
+                <YMInitializer accounts={[75168874]} />
             </div>
         // </Router>
     )
