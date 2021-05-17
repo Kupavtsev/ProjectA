@@ -11,19 +11,19 @@ import Article from './Article';
 import { YMInitializer } from 'react-yandex-metrika';
 
 // For Google Analitycs
-import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
+// import ReactGA from 'react-ga';
+// import { createBrowserHistory } from 'history';
 
 
 // Google Analitycs
-ReactGA.initialize('G-K6FY56S2SR');
-const history = createBrowserHistory();
+// ReactGA.initialize('G-K6FY56S2SR');
+// const history = createBrowserHistory();
 
-// Initialize google analytics page view tracking
-history.listen(location => {
-    ReactGA.set({ page: location.pathname }); // Update the user's current page
-    ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
+// // Initialize google analytics page view tracking
+// history.listen(location => {
+//     ReactGA.set({ page: location.pathname }); // Update the user's current page
+//     ReactGA.pageview(location.pathname); // Record a pageview for the given page
+// });
 
 
 export default function Articles() {
@@ -47,7 +47,7 @@ export default function Articles() {
 
 
     return (
-        <Router history={history}>
+        // <Router history={history}>
             <div>
 
                 <nav className="breadcrumb is-small" aria-label="breadcrumbs">
@@ -89,6 +89,6 @@ export default function Articles() {
             </div> */}
                 <YMInitializer accounts={[75168874]} />
             </div>
-        </Router>
+        // </Router>
     )
 }
