@@ -44,6 +44,7 @@ export default function Articles() {
 
         getArticlesData()
     }, []);
+    // }, [articles]); // In this case infinit loop !!!
 
 
     return (
